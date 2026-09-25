@@ -1,0 +1,347 @@
+
+========================================================================
+OVERALL DATASET SUMMARY
+========================================================================
+train_source1.tsv: 2,206,821 rows
+train_source2.tsv: 5,034,616 rows
+train_source3.tsv: 5,285,603 rows
+test_source1.tsv: 1,732,544 rows
+test_source2.tsv: 4,887,273 rows
+test_source3.tsv: 5,082,316 rows
+
+Training source sizes:
+  train_source1.tsv: 2,206,821
+  train_source2.tsv: 5,034,616
+  train_source3.tsv: 5,285,603
+  Combined: 12,527,040
+
+Test source sizes:
+  test_source1.tsv: 1,732,544
+  test_source2.tsv: 4,887,273
+  test_source3.tsv: 5,082,316
+  Combined: 11,702,133
+
+========================================================================
+FILE: train_source1.tsv
+========================================================================
+Rows: 2,206,821
+
+Columns:
+  - entity_id
+  - business_name
+  - business_address
+  - country
+
+Missing / empty values:
+  entity_id: missing=0 (0.00%), empty=0 (0.00%)
+  business_name: missing=0 (0.00%), empty=0 (0.00%)
+  business_address: missing=0 (0.00%), empty=0 (0.00%)
+  country: missing=0 (0.00%), empty=0 (0.00%)
+
+Text length statistics:
+  business_name:
+    min=3, p25=18.0, median=24.0, p75=30.0, p95=37.0, max=93
+  business_address:
+    min=13, p25=33.0, median=41.0, p75=70.0, p95=102.0, max=256
+  country:
+    min=2, p25=2.0, median=2.0, p75=5.0, p95=5.0, max=5
+
+Unique countries: 2
+Top countries by record count:
+  US: 1,323,633 (59.98%)
+  India: 883,188 (40.02%)
+
+Entity ID prefixes:
+  S1: 2,206,821
+
+Entity ID statistics:
+  Unique IDs: 2,206,821
+  Duplicate ID occurrences: 0
+
+Normalized business-name duplication:
+  Non-empty normalized names: 2,206,821
+  Unique normalized names: 1,520,684
+  Duplicate occurrences: 686,137
+
+Normalized business-address duplication:
+  Non-empty normalized addresses: 2,206,821
+  Unique normalized addresses: 2,130,172
+  Duplicate occurrences: 76,649
+
+========================================================================
+FILE: train_source2.tsv
+========================================================================
+Rows: 5,034,616
+
+Columns:
+  - entity_id
+  - business_name
+  - business_address
+  - country
+
+Missing / empty values:
+  entity_id: missing=0 (0.00%), empty=0 (0.00%)
+  business_name: missing=6 (0.00%), empty=0 (0.00%)
+  business_address: missing=168,967 (3.36%), empty=168,967 (3.36%)
+  country: missing=0 (0.00%), empty=0 (0.00%)
+
+Text length statistics:
+  business_name:
+    min=2, p25=19.0, median=25.0, p75=31.0, p95=40.0, max=104
+  business_address:
+    min=0, p25=30.0, median=37.0, p75=61.0, p95=96.0, max=226
+  country:
+    min=2, p25=2.0, median=2.0, p75=5.0, p95=5.0, max=5
+
+Unique countries: 2
+Top countries by record count:
+  US: 3,016,817 (59.92%)
+  India: 2,017,799 (40.08%)
+
+Entity ID prefixes:
+  S2: 5,034,616
+
+Entity ID statistics:
+  Unique IDs: 5,034,616
+  Duplicate ID occurrences: 0
+
+Normalized business-name duplication:
+  Non-empty normalized names: 5,034,615
+  Unique normalized names: 4,025,055
+  Duplicate occurrences: 1,009,560
+
+Normalized business-address duplication:
+  Non-empty normalized addresses: 4,865,649
+  Unique normalized addresses: 4,286,077
+  Duplicate occurrences: 579,572
+
+========================================================================
+FILE: train_source3.tsv
+========================================================================
+Rows: 5,285,603
+
+Columns:
+  - entity_id
+  - business_name
+  - business_address
+  - country
+
+Missing / empty values:
+  entity_id: missing=0 (0.00%), empty=0 (0.00%)
+  business_name: missing=18 (0.00%), empty=0 (0.00%)
+  business_address: missing=175,916 (3.33%), empty=175,916 (3.33%)
+  country: missing=0 (0.00%), empty=0 (0.00%)
+
+Text length statistics:
+  business_name:
+    min=2, p25=18.0, median=25.0, p75=31.0, p95=42.0, max=97
+  business_address:
+    min=0, p25=35.0, median=42.0, p75=54.0, p95=91.0, max=236
+  country:
+    min=2, p25=2.0, median=2.0, p75=5.0, p95=5.0, max=5
+
+Unique countries: 2
+Top countries by record count:
+  US: 3,170,056 (59.98%)
+  India: 2,115,547 (40.02%)
+
+Entity ID prefixes:
+  S3: 5,285,603
+
+Entity ID statistics:
+  Unique IDs: 5,285,603
+  Duplicate ID occurrences: 0
+
+Normalized business-name duplication:
+  Non-empty normalized names: 5,285,603
+  Unique normalized names: 4,280,399
+  Duplicate occurrences: 1,005,204
+
+Normalized business-address duplication:
+  Non-empty normalized addresses: 5,109,687
+  Unique normalized addresses: 4,616,044
+  Duplicate occurrences: 493,643
+
+========================================================================
+FILE: test_source1.tsv
+========================================================================
+Rows: 1,732,544
+
+Columns:
+  - entity_id
+  - business_name
+  - business_address
+  - country
+
+Missing / empty values:
+  entity_id: missing=0 (0.00%), empty=0 (0.00%)
+  business_name: missing=0 (0.00%), empty=0 (0.00%)
+  business_address: missing=0 (0.00%), empty=0 (0.00%)
+  country: missing=0 (0.00%), empty=0 (0.00%)
+
+Text length statistics:
+  business_name:
+    min=3, p25=18.0, median=24.0, p75=29.0, p95=36.0, max=92
+  business_address:
+    min=13, p25=36.0, median=50.0, p75=74.0, p95=105.0, max=240
+  country:
+    min=2, p25=2.0, median=5.0, p75=5.0, p95=6.0, max=6
+
+Unique countries: 3
+Top countries by record count:
+  India: 809,986 (46.75%)
+  US: 663,106 (38.27%)
+  France: 259,452 (14.98%)
+
+Entity ID prefixes:
+  S1: 1,732,544
+
+Entity ID statistics:
+  Unique IDs: 1,732,544
+  Duplicate ID occurrences: 0
+
+Normalized business-name duplication:
+  Non-empty normalized names: 1,732,544
+  Unique normalized names: 1,228,140
+  Duplicate occurrences: 504,404
+
+Normalized business-address duplication:
+  Non-empty normalized addresses: 1,732,544
+  Unique normalized addresses: 1,673,951
+  Duplicate occurrences: 58,593
+
+========================================================================
+FILE: test_source2.tsv
+========================================================================
+Rows: 4,887,273
+
+Columns:
+  - entity_id
+  - business_name
+  - business_address
+  - country
+
+Missing / empty values:
+  entity_id: missing=0 (0.00%), empty=0 (0.00%)
+  business_name: missing=49 (0.00%), empty=0 (0.00%)
+  business_address: missing=129,408 (2.65%), empty=129,408 (2.65%)
+  country: missing=0 (0.00%), empty=0 (0.00%)
+
+Text length statistics:
+  business_name:
+    min=2, p25=19.0, median=25.0, p75=32.0, p95=42.0, max=94
+  business_address:
+    min=0, p25=32.0, median=43.0, p75=67.0, p95=99.0, max=242
+  country:
+    min=2, p25=2.0, median=5.0, p75=5.0, p95=6.0, max=6
+
+Unique countries: 3
+Top countries by record count:
+  India: 2,312,565 (47.32%)
+  US: 1,871,330 (38.29%)
+  France: 703,378 (14.39%)
+
+Entity ID prefixes:
+  S2: 4,887,273
+
+Entity ID statistics:
+  Unique IDs: 4,887,273
+  Duplicate ID occurrences: 0
+
+Normalized business-name duplication:
+  Non-empty normalized names: 4,887,273
+  Unique normalized names: 4,006,338
+  Duplicate occurrences: 880,935
+
+Normalized business-address duplication:
+  Non-empty normalized addresses: 4,757,865
+  Unique normalized addresses: 4,150,695
+  Duplicate occurrences: 607,170
+
+========================================================================
+FILE: test_source3.tsv
+========================================================================
+Rows: 5,082,316
+
+Columns:
+  - entity_id
+  - business_name
+  - business_address
+  - country
+
+Missing / empty values:
+  entity_id: missing=0 (0.00%), empty=0 (0.00%)
+  business_name: missing=61 (0.00%), empty=0 (0.00%)
+  business_address: missing=136,098 (2.68%), empty=136,098 (2.68%)
+  country: missing=0 (0.00%), empty=0 (0.00%)
+
+Text length statistics:
+  business_name:
+    min=2, p25=19.0, median=25.0, p75=32.0, p95=42.0, max=97
+  business_address:
+    min=0, p25=35.0, median=43.0, p75=59.0, p95=94.0, max=238
+  country:
+    min=2, p25=2.0, median=5.0, p75=5.0, p95=6.0, max=6
+
+Unique countries: 3
+Top countries by record count:
+  India: 2,405,000 (47.32%)
+  US: 1,945,701 (38.28%)
+  France: 731,615 (14.40%)
+
+Entity ID prefixes:
+  S3: 5,082,316
+
+Entity ID statistics:
+  Unique IDs: 5,082,316
+  Duplicate ID occurrences: 0
+
+Normalized business-name duplication:
+  Non-empty normalized names: 5,082,315
+  Unique normalized names: 4,212,812
+  Duplicate occurrences: 869,503
+
+Normalized business-address duplication:
+  Non-empty normalized addresses: 4,946,218
+  Unique normalized addresses: 4,416,395
+  Duplicate occurrences: 529,823
+
+========================================================================
+GROUND TRUTH ANALYSIS
+========================================================================
+Ground-truth rows: 2,206,821
+Unique Source1 IDs: 2,206,821
+Duplicate Source1 ID occurrences: 0
+
+Match-count distribution per Source1:
+  0 matches: 123,247 (5.58%)
+  1 match: 119,157 (5.40%)
+  2 matches: 375,212 (17.00%)
+  3 matches: 530,841 (24.05%)
+  4 matches: 484,115 (21.94%)
+  5 matches: 321,957 (14.59%)
+  6 matches: 164,868 (7.47%)
+  7 matches: 63,968 (2.90%)
+  8 matches: 18,680 (0.85%)
+  9 matches: 4,205 (0.19%)
+  10 matches: 534 (0.02%)
+  11 matches: 37 (0.00%)
+
+Summary:
+  Zero-match Source1: 123,247 (5.58%)
+  Single-match Source1: 119,157 (5.40%)
+  Multi-match Source1: 1,964,417 (89.02%)
+  Total match links: 7,638,365
+  Malformed/non-S2/S3 match IDs: 0
+  Processing time: 60.0s
+
+========================================================================
+INITIAL ENGINEERING OBSERVATIONS
+========================================================================
+Observed country values across profiled files: 3
+Country is clearly not a binary/fixed training attribute; keep country handling open-set.
+train_source1.tsv: normalized business names are highly non-unique (31.09% duplicate occurrences). Name-only matching will be dangerous.
+train_source2.tsv: normalized business names are highly non-unique (20.05% duplicate occurrences). Name-only matching will be dangerous.
+test_source1.tsv: normalized business names are highly non-unique (29.11% duplicate occurrences). Name-only matching will be dangerous.
+
+IMPORTANT: These are profiling observations, not final model decisions. Validate all modeling choices using Source1-grouped validation and the official F0.5 metric.
