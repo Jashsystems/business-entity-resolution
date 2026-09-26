@@ -47,7 +47,7 @@ TEST_SOURCE1_PATH: Path = TEST_DIR / "test_source1.tsv"
 TEST_SOURCE2_PATH: Path = TEST_DIR / "test_source2.tsv"
 TEST_SOURCE3_PATH: Path = TEST_DIR / "test_source3.tsv"
 
-PREDICTIONS_OUTPUT_PATH: Path = OUTPUT_DIR / "predictions.tsv"
+PREDICTIONS_OUTPUT_PATH: Path = OUTPUT_DIR / "matching_results.tsv"
 
 
 # ==========================================================================
