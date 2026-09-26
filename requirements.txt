@@ -1,0 +1,31 @@
+# Business Entity Resolution -- Python dependencies
+#
+# Core (required by io.py, normalize.py, blocking.py, features.py,
+# model.py, evaluate.py, main.py):
+pandas>=1.5
+numpy>=1.22
+
+# scikit-learn is a HARD dependency, not optional: blocking.py imports
+# HashingVectorizer / NearestNeighbors unconditionally at module level,
+# and model.py's guaranteed-available fallback backend
+# (HistGradientBoostingClassifier) also comes from scikit-learn.
+scikit-learn>=1.1
+
+# ---------------------------------------------------------------------
+# Optional (recommended for real multi-million-row runs, NOT required
+# to run the pipeline -- every module below has a documented,
+# automatic, pure-Python/sklearn fallback if it is missing):
+# ---------------------------------------------------------------------
+
+# rapidfuzz speeds up features.py's name/address similarity features
+# substantially at multi-million-row scale. If not installed,
+# features.py automatically falls back to the stdlib's difflib
+# (slower, same output shape).
+# rapidfuzz>=3.0
+
+# model.py prefers LightGBM, then XGBoost, then falls back to
+# scikit-learn's HistGradientBoostingClassifier (always available since
+# scikit-learn is already a hard dependency above). Install at most one
+# of the two below for faster training; neither is required.
+# lightgbm>=4.0
+# xgboost>=2.0
